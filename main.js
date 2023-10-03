@@ -18,7 +18,6 @@
     //console.log(event.currentTarget.parentElement);
     todosContainer.removeChild(event.currentTarget.parentElement);
  };
-
     const todosContainer = document.querySelector(".todos");
     const renderTodoItem = (todoText)=>{
 
